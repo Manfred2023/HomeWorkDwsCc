@@ -1,0 +1,148 @@
+.headerPart{
+  display: flex;
+  flex-direction: column;
+}
+.headerPart1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 30px;
+  padding-left: 30px;
+  align-items: center;
+}
+.headerPartRight{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.topLabel{
+  color: #888888;
+}
+.bottomLabel{
+  font-weight: bold;
+}
+.headerPart2{
+  display: flex;
+  flex-direction: row;
+  background-color: #B91C1C;
+
+  justify-content: space-between;
+  padding: 15px 30px;
+  color: #ffffff;
+}
+.headerPart21{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+  cursor: pointer;
+}
+.bodyPart{
+  display: flex;
+  flex-direction: column;
+  padding: 15px 30px;
+}
+.bodyPartPresentation{
+  height: 250px;
+  background-color: #dfdfdf;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  gap: 10px;
+  border-radius: 10px;
+}
+.textPresentation1{
+  color: #5e5e5e;
+}
+.part1{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 5px;
+
+}
+.textPresentation{
+  font-size: 50px;
+  font-weight: bold;
+}
+.featuredProduct{
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+.buttonShop{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color:#B91C1C;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  align-items: center;
+  cursor: pointer;
+}
+.buttonShop:hover{
+  background-color: #ffffff;
+  color: #B91C1C;
+  font-weight: bold;
+  border:#B91C1C 1px solid;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+p{
+  padding: 0;
+  margin: 0;
+}
+input{
+  margin: 0;
+  padding: 0;
+}
+.productPart{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 20px;
+  cursor: pointer;
+}
+.productCard{
+  width: 200px;
+  border: #5e5e5e 1px solid;
+
+  border-radius: 10px;
+}
+.productCard:hover{
+  border: #B91C1C 1px solid;
+}
+.productImage{
+  height: 200px;
+  width: 100%;
+  background-color: #000000;
+  border-radius:10px ;
+}
+.productDescription {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.categorieProduct{
+  color: #888888;
+  padding-bottom: 5px;
+}
+.commonName{
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.productPrice{
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.bodyServices{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 30px;
+}
+
