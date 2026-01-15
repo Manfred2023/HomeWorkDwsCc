@@ -133,7 +133,7 @@ const products = [
         </div>
 
         <button class="btn-cart" onclick="addToCart(${product.id})">
-          🛒 Ajouter au panier
+          🛒 Add to basket
         </button>
       </div>
     </div>

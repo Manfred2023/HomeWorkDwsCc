@@ -37,88 +37,37 @@
   gap: 10px;
   cursor: pointer;
 }
-.bodyPart{
-  display: flex;
-  flex-direction: column;
-  padding: 15px 30px;
-}
-.bodyPartPresentation{
-  height: 250px;
-  background-color: #dfdfdf;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 20px 50px;
-  gap: 10px;
-  border-radius: 10px;
-  justify-content: space-between;
-}
-.textPresentation1{
-  color: #5e5e5e;
-}
-.part1{
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  gap: 5px;
-
-}
-.part2 {
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.textPresentation{
-  font-size: 50px;
-  font-weight: bold;
-}
-.featuredProduct{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  font-size: 30px;
-  font-weight: bold;
-  align-items: center;
-}
-.voirPLus{
-  color:#B91C1C;
-  font-weight: bold;
-  cursor: pointer;
-}
-.buttonShop{
-  display: flex;
-  flex-direction: column;
-  color: white;
-  background-color:#B91C1C;
-  padding: 10px 20px;
-  border-radius: 5px;
-  font-weight: bold;
-  align-items: center;
-  cursor: pointer;
-}
-.buttonShop:hover{
-  background-color: #dfdfdf;
-  color: #B91C1C;
-  font-weight: bold;
-  border:#B91C1C 1px solid;
-}
 body{
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: 0;
-  font-family: 'Montserrat', sans-serif;
 }
 p{
   padding: 0;
   margin: 0;
 }
-input{
-  margin: 0;
-  padding: 0;
-}
 .productPart{
-  display: grid;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
+.availiableProduct{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 30px;
+  font-weight: bold;
+  align-items: center;
+  padding: 30px;
+}
+.products-container {
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
 .product-card {
   cursor: pointer;
   width: 260px;
@@ -200,44 +149,20 @@ input{
   opacity: 0.9;
   transform: scale(1.02);
 }
-
-.products-container {
-  display: flex;
-  overflow: hidden;
-  gap: 15px;
-  padding: 20px;
-}
-
-
-.bodyServices{
+.bodyPartPresentation{
+  height: 250px;
+  background-color: #dfdfdf;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  padding: 30px;
+  align-items: center;
+  padding: 20px 50px;
+  gap: 10px;
+  border-radius: 10px;
 }
 
-.slider {
-  overflow: hidden;
-  width: 100%;
-  background: #f8f9fa;
-  padding: 20px 0;
-}
-
-.slider-track {
+.bodyPart{
   display: flex;
-  width: max-content;
-  animation: scroll 60s linear infinite;
+  flex-direction: column;
+  padding: 15px 30px;
 }
-@keyframes scroll {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-50%);
-  }
-}
-.slider:hover .slider-track {
-  animation-play-state: paused;
-}
-
 

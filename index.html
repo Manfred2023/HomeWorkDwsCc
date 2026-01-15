@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
+  <title>FredSale e-commerce</title>
   <link rel="stylesheet" href="css/style.css">
   <meta name="description" content="">
 
@@ -25,7 +25,9 @@
 <body>
 <div class="headerPart">
   <div class="headerPart1">
-    <img src="img/votMe_Brand_Guideline-07.png" alt="VotMe Logo" height="60">
+    <div onclick="window.location.href='index.html'">
+      <img src="img/votMe_Brand_Guideline-07.png" alt="VotMe Logo" height="60px" style="cursor: pointer; ">
+    </div>
     <div class="headerPartRight">
       <div>
         <p class="topLabel">Cart</p>
@@ -41,22 +43,22 @@
   </div>
   <div class="headerPart2">
    <div class="headerPart21">
-     <p>All Categories</p>
-     <p>Product</p>
-     <p>Promotion </p>
+     <p onclick="window.location.href='views/categorie.html'"  >All Categories</p>
+     <p  onclick="window.location.href='views/product.html'" >Product</p>
+     <p  onclick="window.location.href='views/promotion.html'"  >Promotion </p>
    </div>
     <div class="headerPart21">
-      <p>Accueil</p>
-      <p>Contact </p>
-      <p>About us </p>
+      <p onclick="window.location.href='index.html'" >Home</p>
+      <p onclick="window.location.href='views/contact.html'" >Contact </p>
+      <p  onclick="window.location.href='views/about.html'" >About us </p>
     </div>
   </div>
 </div>
 <div class="bodyPart">
   <div class="bodyPartPresentation">
     <div class="part1">
-      <p class="textPresentation">Your One-Stop Electroic Marcket</p>
-      <p class="textPresentation1">Welcome to e-shop, a place where you can buy everything about electronics, Sale every day</p>
+      <p class="textPresentation">Your One-Stop <br> Electroic Marcket</p>
+      <p class="textPresentation1">Welcome to e-shop, a place where you can buy <br> everything about electronics, Sale every day</p>
       <div class="buttonShop">
         <p>Shop Now</p>
       </div>
@@ -86,7 +88,8 @@
   <div class="bodyProductPart">
     <div class="featuredProduct">
       <p>Featured Product</p>
-      <h6 class="voirPLus">voir plus</h6>
+        <h6 onclick="window.location.href='views/product.html'" class="voirPLus">view more</h6>
+
     </div>
 
     <div class="productPart">
